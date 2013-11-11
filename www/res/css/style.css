@@ -1,0 +1,48 @@
+*{
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	/*
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
+}
+
+#container
+{
+	width: 100%;
+
+}
+
+.widget-title
+{
+	text-align: center;
+	font-weight: 500;
+}
+
+.widget-row
+{
+	margin-top: 5%;
+}
+
+
+.widget-img
+{
+	display:block;
+	margin:auto;
+}
+
+
+.widget
+{
+	
+}
+
+.widget:hover
+{
+	opacity: 0.5;
+}
