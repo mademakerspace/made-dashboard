@@ -1,0 +1,122 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="res/ico/favicon.png">
+
+    <title>MADE makerspace dashboard</title>
+
+
+    <!--- ===-======-======-======-=== Style sheets ===-======-======-======-======-===-->
+
+    <link href="res/css/bootstrap.css" rel="stylesheet">      <!-- Bootstrap core CSS -->
+    <link href="res/css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:900,700,400,300,100' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+	<div id="header" class= "col-sm-12 row">
+		<div class="col-sm-6 col-sm-offset-4">
+			<h1>MADE dashboard</h1>
+		</div>
+
+	</div>
+
+	<div id="tabz" class= "col-sm-12 row">
+		<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a href="#">Space</a></li>
+			<li><a href="#">Members</a></li>
+			<li><a href="#">Trustees</a></li>
+		</ul>
+
+	</div>
+
+
+	<div id="container" class="col-sm-12">
+		<div id="first-row"  class="col-sm-12 row widget-row">
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://trello.com/b/5dU3dHvi/tasks-to-be-made')">
+				<p class="widget-title">TASKS</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/tasks.svg" />
+			</div><!-- end one-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://trello.com/b/7ojLV2Ml/projects')">
+				<p class="widget-title">PROJECTS</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/projects.svg" />
+			</div><!-- end two-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://www.google.com/calendar/embed?src=6l9ppc6fipscpnlmpin810ktko%40group.calendar.google.com&ctz=Europe/Rome')"> 
+				<p class="widget-title">EVENTS</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/calendar.svg" />				
+			</div><!-- end three-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://drive.google.com/#folders/0Bzm6Xo1KHUiKcU9DVGJvWk1oVmM')">
+				<p class="widget-title">DRIVE</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/pen2.svg" />				
+			</div><!-- end four-->
+
+		</div><!-- end first-row -->
+
+		<div id="second-row" class="col-sm-12 row widget-row" onClick="javascript:openUrl('https://trello.com/b/V4DKV5fI/wish-list')">
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget">
+				<p class="widget-title">WISH LIST</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/wish.svg" /> 
+			</div><!-- end one-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://docs.google.com/document/d/1SoQ-9odjMsG0UQw0s55troVFDITvUrMp-FDirzxkq0Q/edit#heading=h.8kw31fs47tq9') ">
+				<p class="widget-title">RULES</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/list.svg" />
+			</div><!-- end two-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget">
+				<p class="widget-title">ROTA</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/pen2.svg" />				
+			</div><!-- end three-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget"nClick="javascript:openUrl('https://drive.google.com/#folders/0Bzm6Xo1KHUiKTWpzU1pVYzhHX1k') ">
+				<p class="widget-title">PHOTOS</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/pictures.svg" />				
+			</div><!-- end four-->
+
+		</div><!-- end second-row -->
+
+		<div id="third-row" class="col-sm-12 row widget-row">
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget">
+				<p class="widget-title">MEETING AGENDA</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/pen1.svg" />
+			</div><!-- end one-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://groups.google.com/forum/#!forum/made-makerspace')">
+				<p class="widget-title">DISCUSSION</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/discussion.svg" />
+			</div><!-- end two-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget">
+				<p class="widget-title">NEWSLETTER</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/news.svg" />				
+			</div><!-- end three-->
+
+			<div id="" class ="col-sm-2 col-sm-offset-1 widget" onClick="javascript:openUrl('https://trello.com/b/17KCPMXh/made-trustee-checklists')">
+				<p class="widget-title">TRUSTEE CHECKLIST</p>
+				<img class="widget-img" height="128px" width="128px" src="res/img/list.svg" />	 			
+			</div><!-- end four-->
+
+		</div><!-- end THIRD-row -->
+	</div>
+
+
+	<!--- ===-======-======-======-=== Js Libraries ===-======-======-======-======-===-->
+	<script src="res/js/jquery.js"></script>	
+	<script src="res/js/jquery.queryloader2.min.js"></script>
+	<script src="res/js/bootstrap.min.js"></script>
+	<script src="res/js/main.js"></script>
+
+
+  </body>
+</html>  
+
